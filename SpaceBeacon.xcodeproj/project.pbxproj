@@ -21,12 +21,12 @@
 		582AD4C71405384F00F19F34 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		582AD4C81405384F00F19F34 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		582AD4C91405384F00F19F34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		582AD4CC1405384F00F19F34 /* SpaceBeacon-Info.plist */ = {isa = PBXFileReference; path = "SpaceBeacon-Info.plist"; sourceTree = "<group>"; };
+		582AD4CC1405384F00F19F34 /* SpaceBeacon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceBeacon-Info.plist"; sourceTree = "<group>"; };
 		582AD4CE1405384F00F19F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		582AD4D01405384F00F19F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		582AD4D21405384F00F19F34 /* SpaceBeacon-Prefix.pch */ = {isa = PBXFileReference; path = "SpaceBeacon-Prefix.pch"; sourceTree = "<group>"; };
+		582AD4D21405384F00F19F34 /* SpaceBeacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpaceBeacon-Prefix.pch"; sourceTree = "<group>"; };
 		582AD4D41405384F00F19F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		582AD4D61405384F00F19F34 /* SpaceBeaconAppDelegate.h */ = {isa = PBXFileReference; path = SpaceBeaconAppDelegate.h; sourceTree = "<group>"; };
+		582AD4D61405384F00F19F34 /* SpaceBeaconAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpaceBeaconAppDelegate.h; sourceTree = "<group>"; };
 		582AD4D71405384F00F19F34 /* SpaceBeaconAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceBeaconAppDelegate.m; sourceTree = "<group>"; };
 		582AD4DA1405385000F19F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -286,6 +286,7 @@
 				582AD4E01405385000F19F34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
